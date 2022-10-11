@@ -1,0 +1,37 @@
+body {
+  background-color: pink;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 250px;
+  margin-top: 100px;
+  margin-left: 40%;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.timer {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.btns button {
+  background-color: yellowgreen;
+  border: none;
+  padding: 6px 20px;
+  cursor: pointer;
+}
+
+.btns button:hover {
+  opacity: 0.7;
+}
